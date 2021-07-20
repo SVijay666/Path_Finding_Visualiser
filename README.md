@@ -6,4 +6,4 @@
 -The concept of Manhattan distance is used to calculate the estimated distance between two grid cells for the A* algorithm.
 
 - Instructions:
-  Just install the Pygame package and run the main file using the python interpreter.
+  Just install the Pygame package and run the main file using the python interpreter. Use the mouse-right click to select a cell on grid to mark it as start/end/obstacle and press key 'a' for A* , 'b' for BFS , 'd' for DFS visualisation. The mouse left-click on a cell to deselect it. Press the 'escape' key to reset the grid.
