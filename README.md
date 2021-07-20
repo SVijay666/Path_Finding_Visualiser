@@ -1,9 +1,9 @@
 # Path_Finding_Visualiser
--A python based application that demonstrates how certain path finding algorithms work in a 2-D grid. 
+- A python based application that demonstrates how certain path finding algorithms work in a 2-D grid. 
 
--The library Pygame is used to create this application which involves: drawing an empty grid on the screen; utilizing the event module of Pygame for taking input from the user to determine the start and end point of our search, to introduce obstacles and to select the algorithm to visualise from a choice of A*, Breadth First Search, Depth First Search;  changing the representation of the grid everytime a cell is visited, and if the end is reached then subsequently highlighting the shortest path taken as found by the algorithm selected by the user.
+- The library Pygame is used to create this application which involves: drawing an empty grid on the screen; utilizing the event module of Pygame for taking input from the user to determine the start and end point of our search, to introduce obstacles and to select the algorithm to visualise from a choice of A*, Breadth First Search, Depth First Search;  changing the representation of the grid everytime a cell is visited, and if the end is reached then subsequently highlighting the shortest path taken as found by the algorithm selected by the user.
   
--The concept of Manhattan distance is used to calculate the estimated distance between two grid cells for the A* algorithm.
+- The concept of Manhattan distance is used to calculate the estimated distance between two grid cells for the A* algorithm.
 
 - Instructions:
   Just install the Pygame package and run the main file using the python interpreter. Use the mouse-right click to select a cell on grid to mark it as start/end/obstacle and press key 'a' for A* , 'b' for BFS , 'd' for DFS visualisation. The mouse left-click on a cell to deselect it. Press the 'escape' key to reset the grid.
